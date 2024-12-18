@@ -1,5 +1,4 @@
 import time
-from re import search
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
