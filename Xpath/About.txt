@@ -1,0 +1,12 @@
+Xpath is address of the elements.it is define as xml path
+use to navigate the element and attributes
+it works on DOM
+Absolute Xpath(full xpath)=/htlm/head/body
+relative Xpath=//*(regular_expression)[@Attribute="Value"].
+Difference Absolute and relative
+
+
+
+
+
+
