@@ -1,11 +1,21 @@
 Xpath is address of the elements.it is define as xml path
 use to navigate the element and attributes
 it works on DOM
-Absolute Xpath(full xpath)=/htlm/head/body
-relative Xpath=//*(regular_expression)[@Attribute="Value"].
+Absolute Xpath(full xpath)=/htlm/head/body  use tags
+relative Xpath=//*(regular_expression)[@Attribute="Value"]. use attributes
 Difference Absolute and relative
 
+In relative path we can use (AND) and (OR)
+(use there were data is dynamic like login button change to log out button after the login)
 
+
+19/12/24
+Xpath with contain()=(By.xpath,"//a[contain(text(),'pricing')])  or (By.xpath,"//a[contain(@name,'pricing')])
+text()=(By.xpath,"//a[text()='pricing]) it use to retrieve inner text
+start-with()=(By.xpath,"//a[start-with(text(),'pricing')])
+end-with()
+
+Xpath axes= use to search for multiple nodes in the xml document
 
 
 
