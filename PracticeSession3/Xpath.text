@@ -1,0 +1,62 @@
+Xpath_Axes
+
+1.  Locate the parent of an input field with id="username"|
+//input[@id:'username']/parent::*
+2.  Identify all child elements of a div with class container.
+//div[@class:'container']/child::*
+3.	Find all descendants of a section with id=“main-content”:
+//section[@id='main-content']/descendants::*
+4.	Locate the following sibling of a button with id=“submit”:
+//button[@id='submit']/following-sibling::*
+Q.	Find the preceding sibling of a label with for=“email”:
+//label[@for='email']/preceding-sibling::*
+
+Q2: XPath OR/AND:
+
+1.	Locate an input field with either id=“email” OR name=“userEmail”:
+//input[@id='email' or @name='userEmail']
+2.	Find a button with both type=“submit” AND class=“btn-primary”:
+//button[@type='submit' and @class='btn-primary']
+3.	Locate a link with href=”/home” OR text containing “Home”:
+//a[@href='/home' or contain(text(), 'Home')]
+
+Q3: XPath Functions
+
+A. contains()
+
+1. Find an element whose id contains the word "user"
+//*[contain(@id,'user')]
+2. Locate a button whose class-contains "submit-bia.
+//button[contain(@class ,'submit-bia')]
+3. Find a paragraph (<p>) with text containing "Welcome"
+//p[contain(text(),'welcome')]
+
+B. text()
+
+4.	Locate a link with exact text “About Us”:
+//a[text()='About Us']
+5.	Find a span with text exactly “Submit Form”:
+//span[text()='Submit Form']
+
+C. starts-with():
+
+6.	Locate an input field whose name starts with “user”:
+//input[starts-with(@name, 'user')]
+7.	Find a div whose id starts with “main-”:
+//div[starts-with(@id, 'main-')]
+
+
+4. Mixed Challenges:
+
+1.	Find all descendants of a section with id=“content” that contain the word “data” in their class:
+//section[@id='content']//descendants::*[contains(@class, 'data')]
+2.	Locate a sibling of an h1 tag with the text “Welcome” that starts with “header”:
+//h1[text()='Welcome']/following-sibling::*[starts-with(name(), 'header')]
+3.	Find all following siblings of a div with the class item-container:
+//div[@class='item-container']/following-sibling::*
+4.	Locate an ancestor of a paragraph tag with the text “Disclaimer”:
+//p[text()='Disclaimer']/ancestor::*
+5.	Find an input field with name starting with “email” and containing “input” in its class:
+//input[starts-with(@name, 'email') and contains(@class, 'input')]
+
+
