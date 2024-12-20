@@ -20,16 +20,16 @@ parent_element = driver.find_element(By.XPATH, "//*[@class='_6lux']/parent::*")
 print("Parent Element Tag Name:", parent_element.tag_name)
 
 # 4. Following
-following_element = driver.find_element(By.XPATH, "//*[@class='_6lux']/following::*")
-print("Following Element Tag Name:", following_element.tag_name)
+following_element = driver.find_elements(By.XPATH, "//*[@class='_6lux']/following::*")
+print("Following Element Tag Name:", len(following_element))
 
 # 5. Preceding
-preceding_element = driver.find_element(By.XPATH, "//*[@class='_6lux']/preceding::*")
-print("Preceding Element Tag Name:", preceding_element.tag_name)
+preceding_element = driver.find_elements(By.XPATH, "//*[@class='_6lux']/preceding::*")
+print("Preceding Element Tag Name:", len(preceding_element))
 
 # 6. Following-Sibling
-following_sibling = driver.find_element(By.XPATH, "//*[@class='_6lux']/following-sibling::*")
-print("Following Sibling Tag Name:", following_sibling.tag_name)
+following_sibling = driver.find_elements(By.XPATH, "//*[@class='_6lux']/following-sibling::*")
+print("Following Sibling Tag Name:", len(following_sibling))
 
 # 7. Preceding-Sibling
 preceding_sibling = driver.find_element(By.XPATH, "//*[@class='_6lux']/preceding-sibling::*")
