@@ -41,7 +41,7 @@ print("Number of Ancestors:", len(ancestor_elements))
 for idx, ancestor in enumerate(ancestor_elements, start=1):
     print(f"Ancestor {idx} - Tag Name: {ancestor.tag_name}, Class Name: {ancestor.get_attribute('class')}")
 
-# Close the browser
+
 driver.quit()
 
 # import time
