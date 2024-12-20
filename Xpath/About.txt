@@ -17,6 +17,22 @@ end-with()
 
 Xpath axes= use to search for multiple nodes in the xml document
 
+20/12/24
+Relative locator(friendly locator)=use can locate the nearby elements.
+Near
+above/below
+to left of/to right of
+with tag_name
+Near and with Tag_name
+
+example:
+above_locator = locate_with(By.TAG_NAME, "input").above({By.ID: "password"})
+below_locator = locate_with(By.TAG_NAME, "input").below({By.ID: "email"})
+
+
+
+
+
 
 
 
