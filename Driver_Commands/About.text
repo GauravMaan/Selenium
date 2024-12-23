@@ -10,6 +10,11 @@ Conditional commands:
 - is_enabled()= give true and false(enable for interaction)
 - is_selected()= only use in radio and check box
 
-Browser Command:
+Browser Commands:
 - Close()= close single window
 - Quit()= close multiple windows
+
+Navigational Commands:
+- back()
+- forward()
+- refresh()
