@@ -1,0 +1,15 @@
+23/12/24
+Application commands:
+- get()=open the application url
+- title= capture the title of current web page
+- current_url= capture the url of web page
+- page_source= capture the source code
+
+Conditional commands:
+- is_displayed()= give true and false
+- is_enabled()= give true and false(enable for interaction)
+- is_selected()= only use in radio and check box
+
+Browser Command:
+- Close()= close single window
+- Quit()= close multiple windows
