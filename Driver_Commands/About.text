@@ -18,3 +18,7 @@ Navigational Commands:
 - back()
 - forward()
 - refresh()
+
+Difference between find elements and fine element
+txt=it is inner text of elements
+get_attribute=
