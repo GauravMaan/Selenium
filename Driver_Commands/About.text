@@ -22,3 +22,17 @@ Navigational Commands:
 Difference between find elements and fine element
 txt=it is inner text of elements
 get_attribute=
+
+26/12/24
+wait command
+- implicit wait = An implicit wait is a global setting that tells the WebDriver to wait for a specified amount of time
+for an element to appear before throwing a NoSuchElementException.Applies to all elements in the script
+
+- Explicit wait= An explicit wait is a conditional wait applied to a specific element.
+It waits until a particular condition is met (e.g., visibility, click ability) within the specified timeout.
+
+- fluent wait= A fluent wait is an advanced wait mechanism that defines:
+	•	A maximum timeout.
+	•	A polling interval to check for the condition.
+	•	Ignored exceptions (e.g., NoSuchElementException).
+

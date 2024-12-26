@@ -1,0 +1,6 @@
+Drop down
+by using Select class :- select_by_visible_text("")
+2. select_by_visible_value("")
+3. select_by_visible_index("")
+
+CheckBox
