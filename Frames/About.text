@@ -1,0 +1,11 @@
+27 dec
+switch_to.frame()
+
+located the frame:-
+---by web elements(diver.find_element(By.XPATH)
+---by name and id
+---by index
+
+ types of frames
+embedded frame: can switch
+independent frame:- can not switch to one frame to another first return to the web page
