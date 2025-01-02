@@ -1,0 +1,9 @@
+2 jan 2025
+
+ActionChains()
+double_click()
+context_click()
+drag_and_drop()
+drag_and_drop_by_offset()  use (location) to find element location
+
+build(it crete the sequence of the instruction/steps (optional)).perform(executed of the steps)
