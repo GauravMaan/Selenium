@@ -6,4 +6,6 @@ window_handles= to generate the list
 Screen Shot
 save_screenshot("path od directory")
 
+headless mode
+
 
