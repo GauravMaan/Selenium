@@ -1,9 +1,23 @@
 2 jan 2025
 
 ActionChains()
+move_to_element()
 double_click()
 context_click()
 drag_and_drop()
 drag_and_drop_by_offset()  use (location) to find element location
 
 build(it crete the sequence of the instruction/steps (optional)).perform(executed of the steps)
+
+3 jan 2025
+scroll can be located by java script executer
+vertical = y axis
+horizontal = x axis
+
+ex= driver.execute_script("return window.pageYOffset")
+window.scrollBy()
+scrollIntoView()
+
+KEYWORD EVENTS
+Keys_down()
+Keys_up()

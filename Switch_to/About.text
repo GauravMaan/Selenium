@@ -1,0 +1,9 @@
+3 jan
+
+current_window_handle = it give window id single window
+window_handles= to generate the list
+
+Screen Shot
+save_screenshot("path od directory")
+
+
