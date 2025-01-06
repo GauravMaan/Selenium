@@ -5,7 +5,7 @@ driver = webdriver.Safari()
 
 driver.get("https://www.google.com/")
 
-screenshot_path = "/Users/gauravmaan/Desktop/Selenium/HomePage.png"
+screenshot_path = "/HomePage.png"
 
 driver.save_screenshot(screenshot_path)
 
