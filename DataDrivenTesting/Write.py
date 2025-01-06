@@ -15,6 +15,6 @@ for r in range(1, 6):
             continue  # Skip the merged cells
 
         # Assign value to the cell
-        cell.value = "welcome"
+        cell.value = "❤"
 
 workbook.save(file)
