@@ -1,0 +1,16 @@
+6 jan 2023
+
+test with multiple data set is called data driven testing
+
+we need openpyxl package
+
+File---->workbook---->rows---->cells
+
+with Excel
+file=os.getcwd()+ path
+
+workbook=openpyxl.load_workbook()
+
+sheet=workbook["sheet name"]
+
+
